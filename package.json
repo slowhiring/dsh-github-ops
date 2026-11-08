@@ -1,0 +1,53 @@
+{
+  "name": "dsh-github-manager",
+  "version": "1.0.0",
+  "description": "Let DSH operate your GitHub: create and manage repositories, read/write files, clone/commit/push real code, open PRs and issues, search — with the token kept in the credential store.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "github",
+    "git",
+    "repository",
+    "pull-request"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lzfbite/dsh-github-manager.git"
+  },
+  "homepage": "https://github.com/Lzfbite/dsh-github-manager#readme",
+  "bugs": {
+    "url": "https://github.com/Lzfbite/dsh-github-manager/issues"
+  },
+  "author": "Lzfbite",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "icon.png",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
