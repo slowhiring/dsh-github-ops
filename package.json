@@ -1,5 +1,5 @@
 {
-  "name": "dsh-github-manager",
+  "name": "dsh-github-ops",
   "version": "1.0.0",
   "description": "Let DSH operate your GitHub: create and manage repositories, read/write files, clone/commit/push real code, open PRs and issues, search — with the token kept in the credential store.",
   "keywords": [
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lzfbite/dsh-github-manager.git"
+    "url": "git+https://github.com/Lzfbite/dsh-github-ops.git"
   },
-  "homepage": "https://github.com/Lzfbite/dsh-github-manager#readme",
+  "homepage": "https://github.com/Lzfbite/dsh-github-ops#readme",
   "bugs": {
-    "url": "https://github.com/Lzfbite/dsh-github-manager/issues"
+    "url": "https://github.com/Lzfbite/dsh-github-ops/issues"
   },
   "author": "Lzfbite",
   "license": "MIT",

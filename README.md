@@ -1,4 +1,4 @@
-# dsh-github-manager
+# dsh-github-ops
 
 **让 DeepSeek Harness 直接操作你的 GitHub：建仓库、写文件、clone / commit / push 真实代码、开 PR、提 issue、搜索。**
 
@@ -31,18 +31,18 @@
 ### 一行装（从 GitHub 源码）
 
 ```bash
-dsh plugin add github:Lzfbite/dsh-github-manager
+dsh plugin add github:Lzfbite/dsh-github-ops
 ```
 
 ### 在 DSH 插件市场里点一下
 
 本插件已提交到 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 精选列表；
-收录后打开市场 → 分类 **git** → 找到 *dsh-github-manager* → 一键安装。
+收录后打开市场 → 分类 **git** → 找到 *dsh-github-ops* → 一键安装。
 
 ### 用预构建包（最快，不需要任何构建）
 
 ```bash
-dsh plugin add https://github.com/Lzfbite/dsh-github-manager/releases/latest/download/dsh-github-manager-1.0.0.tgz
+dsh plugin add https://github.com/Lzfbite/dsh-github-ops/releases/latest/download/dsh-github-ops-1.0.0.tgz
 ```
 
 > 这是一个 host-only bundle，只有一个 `index.js`，**没有依赖、没有构建步骤、没有 postinstall**。
@@ -146,9 +146,9 @@ git：git version 2.55.0.windows.5
 ## 开发
 
 ```bash
-git clone https://github.com/Lzfbite/dsh-github-manager
-cd dsh-github-manager
-dsh plugin add "$PWD"     # 或 dsh plugin add github:Lzfbite/dsh-github-manager
+git clone https://github.com/Lzfbite/dsh-github-ops
+cd dsh-github-ops
+dsh plugin add "$PWD"     # 或 dsh plugin add github:Lzfbite/dsh-github-ops
 ```
 
 `index.js` 是一个文件，语义按工具分段；改完重启 DSH 生效。

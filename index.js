@@ -28,7 +28,7 @@ import { promisify } from 'node:util'
 
 const run = promisify(execFile)
 
-export const name = 'dsh-github-manager'
+export const name = 'dsh-github-ops'
 export const inject = ['tools']
 
 /** credential store 里的地址：`<scope>/<id>`。运行时它就是个字符串（branded type 只在编译期存在）。 */
