@@ -27,17 +27,18 @@
 ## 装它
 
 ```bash
-# 1. 装（预构建包，29 KB，不需要构建、没有依赖）
-dsh plugin add https://github.com/slowhiring/dsh-github-ops/releases/latest/download/dsh-github-ops-1.0.0.tgz
-
-# 2. 重启 DSH —— 7 个工具立刻出现在工具列表里
-
-# 3. 连上你的账号（token 存进 DSH credential store，不进配置文件）
-github_auth action=login token=ghp_xxxxxxxx
+dsh plugin add github:slowhiring/dsh-github-ops
 ```
 
-也可以从源码装：`dsh plugin add github:slowhiring/dsh-github-ops`，或等它在
-[插件市场](https://awesome-dsh-plugin.com/p/slowhiring/dsh-github-ops/) 里出现后点一下安装。
+想用预构建包（29 KB，不需要构建、没有依赖）也行：
+[Releases 里的 tgz](https://github.com/slowhiring/dsh-github-ops/releases/latest)。
+
+装完**重启 DSH**，7 个工具立刻出现在工具列表里。然后连上你的账号 —— token 存进
+DSH credential store，不进配置文件：
+
+```text
+github_auth action=login token=ghp_xxxxxxxx
+```
 
 ## 它和已有的 GitHub 插件差在哪
 
