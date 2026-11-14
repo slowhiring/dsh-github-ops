@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/slowhiring/dsh-github-ops/issues"
   },
-  "author": "Lzfbite",
+  "author": "slowhiring",
   "license": "MIT",
   "type": "module",
   "main": "index.js",
