@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lzfbite/dsh-github-ops.git"
+    "url": "git+https://github.com/slowhiring/dsh-github-ops.git"
   },
-  "homepage": "https://github.com/Lzfbite/dsh-github-ops#readme",
+  "homepage": "https://github.com/slowhiring/dsh-github-ops#readme",
   "bugs": {
-    "url": "https://github.com/Lzfbite/dsh-github-ops/issues"
+    "url": "https://github.com/slowhiring/dsh-github-ops/issues"
   },
   "author": "Lzfbite",
   "license": "MIT",
